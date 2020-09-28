@@ -94,7 +94,7 @@ git push origin minha-feature
 
 - Carlos Castro - [carloscastrodev](http://github.com/carloscastrodev/) - contato-carloscastro@hotmail.com
  
-- Macedo - [estevits](https://github.com/estevits/) - macedoestevaof@gmail.com
+- Estevão Macedo - [estevits](https://github.com/estevits/) - macedoestevaof@gmail.com
  
 - Geraldo Varriale - [gsvarriale](https://github.com/gsvarriale/) - geraldovarriale@gmail.com
  
