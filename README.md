@@ -1,3 +1,5 @@
+ # SafeBites
+ 
  <p align="center">
   <img width="420" src="./.gitassets/logo.png" alt="Logo Safe Bites"> 
   <p align="center">Qual seu tipo de comida?</p>
@@ -57,7 +59,7 @@ As seguintes ferramentas foram / serão utilizadas durante o desenvolvimento do 
 - **[MySQL](https://www.mysql.com/)**
 - **[Spring Boot](https://spring.io/projects/spring-boot)**
 
-# Como rodar
+## Como rodar
 
 ```bash
 ## Clonar o repositório
@@ -73,7 +75,7 @@ code .
 
 ```
 
-## Como contribuir ? <br/>
+## Como contribuir
 
 ```bash
 ## Faça um fork desse repositório
