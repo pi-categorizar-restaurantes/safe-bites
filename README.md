@@ -1,6 +1,6 @@
  <p align="center">
   <img width="300" height="300" src="./.gitassets/logo.png" alt="Logo Safe Bites"> 
-  <p>Qual seu tipo de comida?</p>
+  <p align="center">Qual seu tipo de comida?</p>
  </p>
 
 ## Índice
@@ -9,6 +9,7 @@
 - [Ideia do Projeto](#ideia-do-projeto)
 - [Screenshots](#screenshots)
 - [Techs](#techs)
+  - [Prototipagem](#prototipagem)
   - [Front end](#front-end)
   - [Back end](#back-end)
 - [Como rodar](#como-rodar)
@@ -37,7 +38,7 @@ A ideia do projeto surgiu a partir da problemática levantada pelo membro da equ
 
 As seguintes ferramentas foram / serão utilizadas durante o desenvolvimento do projeto:
 
-### Protótipo
+### Prototipagem
 
 - **[Figma](https://www.figma.com/)**
 - **[Adobe Illustrator](https://www.adobe.com/br/products/illustrator.html)**
@@ -85,7 +86,10 @@ Depois que o merge da sua pull request ser feito, você pode deletar a sua branc
 
 ## Contato
 
-Carlos Castro - [carloscastrodev](http://github.com/carloscastrodev/) - contato-carloscastro@hotmail.com
-Estevão Macedo - [estevits](https://github.com/estevits/) - macedoestevaof@gmail.com
-Geraldo Varriale - [gsvarriale](https://github.com/gsvarriale/) - geraldovarriale@gmail.com
-Matheus Matsukawa - [matheus-matsukawa](https://github.com/matheus-matsukawa/) - matheusmatsu@gmail.com
+<p>Carlos Castro - [carloscastrodev](http://github.com/carloscastrodev/) - contato-carloscastro@hotmail.com</p>
+ 
+<p> Macedo - [estevits](https://github.com/estevits/) - macedoestevaof@gmail.com</p>
+ 
+<p>Geraldo Varriale - [gsvarriale](https://github.com/gsvarriale/) - geraldovarriale@gmail.com</p>
+ 
+<p>Matheus Matsukawa - [matheus-matsukawa](https://github.com/matheus-matsukawa/) - matheusmatsu@gmail.com</p>
