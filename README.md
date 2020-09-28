@@ -101,3 +101,5 @@ git push origin minha-feature
 - Geraldo Varriale - [gsvarriale](https://github.com/gsvarriale/) - geraldovarriale@gmail.com
  
 - Matheus Matsukawa - [matheus-matsukawa](https://github.com/matheus-matsukawa/) - matheusmatsu@gmail.com
+
+- Rayssa Ferreira - [rayzinhaxx](https://github.com/rayzinhaxx/) - rayssaferr98@gmail.com
