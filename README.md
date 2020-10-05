@@ -52,6 +52,9 @@ As seguintes ferramentas foram / serão utilizadas durante o desenvolvimento do 
 - **[JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
 - **[jQuery](https://jquery.com/)**
 - **[Bootstrap](https://getbootstrap.com/)**
+- **[React](https://pt-br.reactjs.org/)**
+- **[Reactstrap](https://reactstrap.github.io/)**
+
 
 ### Back end
 
@@ -68,11 +71,14 @@ git clone https://github.com/pi-categorizar-restaurantes/safe-bites
 ## Acessar o diretório novo criado
 cd safe-bites
 
+## Instalar utilizando Yarn
+yarn
+
 ## Abrir o espaço de trabalho em sua IDE preferida. (EX: VSCode)
 code .
 
-## Executar o servidor (EX: Live Server)
-
+## Executar a aplicação
+yarn start
 ```
 
 ## Como contribuir
@@ -99,5 +105,7 @@ git push origin minha-feature
 - Estevão Macedo - [estevits](https://github.com/estevits/) - macedoestevaof@gmail.com
  
 - Geraldo Varriale - [gsvarriale](https://github.com/gsvarriale/) - geraldovarriale@gmail.com
+
+- Luan Fernandes - [souluanf](https://github.com/souluanf) - souluan@live.com
  
 - Matheus Matsukawa - [matheus-matsukawa](https://github.com/matheus-matsukawa/) - matheusmatsu@gmail.com
