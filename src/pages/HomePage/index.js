@@ -1,11 +1,15 @@
 import React from "react";
-import ExampleComponent from "../../components/ExampleComponent";
+import Header from "../../components/Header";
+import UserReview from "../../components/UserReview";
+
+import mockReview from "../../mock/reviewMock";
 
 const HomePage = () => {
   return (
-    <div>
-      <ExampleComponent />
-    </div>
+    <>
+      <Header backArrow={true} />
+      <UserReview reviewData={mockReview} />
+    </>
   );
 };
 
