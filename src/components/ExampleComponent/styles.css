@@ -1,0 +1,9 @@
+.example-component-wrapper {
+  background-color: #000;
+  width: 400px;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

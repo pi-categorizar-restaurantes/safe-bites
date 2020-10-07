@@ -1,0 +1,27 @@
+.indicators {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.indicator {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.active-indicator {
+  background-color: var(--light);
+}
+
+.inactive-indicator {
+  background-color: var(--lighter-gray);
+  cursor: pointer;
+}
+
+.inactive-indicator:hover {
+  opacity: 0.9;
+}

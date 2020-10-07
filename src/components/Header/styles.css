@@ -1,0 +1,93 @@
+.header {
+  background-color: var(--blue);
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--base-padding);
+}
+
+.header-back-arrow-button {
+  width: fit-content;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: var(--base-padding);
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.header-back-arrow-button:hover .header-back-arrow-icon {
+  transform: translateX(-5px);
+}
+
+.header-back-arrow-icon {
+  width: 80%;
+  max-width: 4rem;
+  max-height: 1rem;
+  height: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.header-main-page-login-signup-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 10px;
+}
+
+.header-main-page-login-signup-container > button {
+  background: none;
+  outline: none;
+  color: var(--light);
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s ease-in;
+  font-size: 1.1rem;
+}
+
+.header-main-page-login-signup-container > button:hover {
+  opacity: 0.8;
+}
+
+.header-logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.header-logo {
+  object-fit: contain;
+  width: 250px;
+  max-width: 250px;
+  height: auto;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.header-logo__align-left {
+  justify-content: flex-start;
+}
+
+.header-logo__align-right {
+  justify-content: flex-end;
+}
+
+.header-question-text {
+  grid-area: bottom-right;
+  color: var(--light);
+  margin-left: auto;
+}
+
+@media (max-width: 250px) {
+  .header-logo {
+    width: 90%;
+  }
+}
+
+@media (min-width: 400px) {
+  .header-question-text {
+    margin-left: 187px;
+  }
+}
