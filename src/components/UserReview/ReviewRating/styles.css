@@ -7,9 +7,11 @@
 .review-rating p {
   color: var(--light);
   margin-right: 4px;
+  font-size: 1.2rem;
+  font-family: var(--text-font-family);
 }
 
 .review-rating svg {
-  height: 100%;
+  height: 1.2rem;
   width: 20px;
 }
