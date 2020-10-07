@@ -13,35 +13,28 @@ const CustomCarousel = ({
   skipTo,
 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
   const sliderRef = React.createRef();
 
-  useEffect(() => {
-    sliderRef.current.slickGoTo(activeIndex);
-  }, [activeIndex]);
-
   function next() {
-    if (animating) return;
-    setAnimating(true);
-    setActiveIndex(Math.min(activeIndex + 1, slides.length - 1));
-    setAnimating(false);
+    sliderRef.current.slickNext();
   }
 
   function prev() {
-    if (animating) return;
-    setAnimating(true);
-    setActiveIndex(Math.max(activeIndex - 1, 0));
-    setAnimating(false);
+    sliderRef.current.slickPrev();
   }
 
   function handleIndicatorClick(index) {
-    setActiveIndex(index);
+    sliderRef.current.slickGoTo(index);
   }
 
   return (
     <>
       <div className="carousel-container">
-        <Slider ref={sliderRef} {...settings}>
+        <Slider
+          ref={sliderRef}
+          {...settings}
+          beforeChange={(_, next) => setActiveIndex(next)}
+        >
           {slides.map((slide) => slide.slideContent)}
         </Slider>
         <div className="carousel-menu">
