@@ -43,6 +43,35 @@
   left: 0;
 }
 
+.default-button {
+  height: 120px;
+  width: 300px;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+  color: var(--light);
+}
+
+.default-button:hover {
+  box-shadow: 2px 2px 10px 0 black;
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.green-hover {
+  background-color: var(--lighter-green);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.red:hover {
+  background-color: var(--lighter-red);
+}
+
 /* BASE STYLING */
 html,
 body,
