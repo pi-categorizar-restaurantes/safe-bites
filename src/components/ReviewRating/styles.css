@@ -1,0 +1,15 @@
+.review-rating {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.review-rating p {
+  color: var(--light);
+  margin-right: 4px;
+}
+
+.review-rating svg {
+  height: 100%;
+  width: 20px;
+}
