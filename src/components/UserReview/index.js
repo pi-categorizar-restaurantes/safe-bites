@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReviewRating from "../ReviewRating";
+import ReviewRating from "./ReviewRating";
 import { trimReviewText, updateReviewLike } from "./business";
 import "./styles.css";
 
