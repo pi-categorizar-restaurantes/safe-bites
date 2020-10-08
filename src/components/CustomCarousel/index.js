@@ -29,7 +29,7 @@ const CustomCarousel = ({
 
   return (
     <>
-      <div className="carousel-container">
+      <div className="custom-carousel-container">
         <Slider
           ref={sliderRef}
           {...settings}
@@ -37,7 +37,7 @@ const CustomCarousel = ({
         >
           {slides.map((slide) => slide.slideContent)}
         </Slider>
-        <div className="carousel-menu">
+        <div className="custom-carousel-menu">
           {!doubleArrow && activeIndex < slides.length - 1 && (
             <CarouselControl
               doubleArrow={doubleArrow}

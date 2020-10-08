@@ -11,7 +11,7 @@ const Onboarding = () => {
   }, []);
 
   return (
-    <div className="onboarding-container">
+    <div className="custom-onboarding-container">
       <Header />
       <CustomCarousel
         slides={onboardingSlides}

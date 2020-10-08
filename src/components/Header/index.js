@@ -5,39 +5,41 @@ import "./styles.css";
 
 const Header = ({ backArrow = false, isMainPage = false }) => {
   return (
-    <header className="header">
+    <header className="custom-header">
       {backArrow && (
-        <button className="header-back-arrow-button" onClick={() => {}}>
+        <button className="custom-header-back-arrow-button" onClick={() => {}}>
           <img
             src={backArrowIcon}
             alt="Voltar"
-            className="header-back-arrow-icon"
+            className="custom-header-back-arrow-icon"
           />
         </button>
       )}
       {isMainPage && (
-        <div className="header-main-page-login-signup-container">
-          <button className="title-font" onClick={() => {}}>
+        <div className="custom-header-main-page-login-signup-container">
+          <button className="custom-title-font" onClick={() => {}}>
             Entrar
           </button>
-          <button className="title-font" onClick={() => {}}>
+          <button className="custom-title-font" onClick={() => {}}>
             Cadastrar
           </button>
         </div>
       )}
       <div
-        className={`header-logo-container ${
-          isMainPage ? "header-logo__align-left" : "header-logo__align-right"
+        className={`custom-header-logo-container ${
+          isMainPage
+            ? "custom-header-logo__align-left"
+            : "custom-header-logo__align-right"
         }`}
       >
         <img
           src={horizontalLogo}
           alt="Logo Safe Bites"
-          className="header-logo"
+          className="custom-header-logo"
         />
       </div>
       {isMainPage && (
-        <p className="header-question-text text-font">
+        <p className="custom-header-question-text custom-text-font">
           Qual seu tipo de comida?
         </p>
       )}

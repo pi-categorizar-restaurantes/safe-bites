@@ -3,7 +3,7 @@ import "./styles.css";
 
 const CarouselControl = ({ doubleArrow = false, next, prev }) => {
   const prevButton = () => (
-    <button className="next-slide-button" onClick={prev}>
+    <button className="custom-next-slide-button" onClick={prev}>
       <svg
         height="50"
         viewBox="0 0 86 100"
@@ -19,7 +19,7 @@ const CarouselControl = ({ doubleArrow = false, next, prev }) => {
   );
 
   const nextButton = () => (
-    <button className="next-slide-button" onClick={next}>
+    <button className="custom-next-slide-button" onClick={next}>
       <svg
         height="50"
         viewBox="0 0 86 100"
