@@ -1,7 +1,7 @@
 .custom-header {
   background-color: var(--blue);
   width: 100vw;
-  height: 150px;
+  height: var(--header-height);
   display: flex;
   flex-direction: column;
   padding: var(--base-padding);
@@ -12,10 +12,10 @@
   height: 100%;
   background: none;
   border: none;
-  padding: var(--base-padding);
   outline: none;
   cursor: pointer;
   text-align: left;
+  margin-top: 1rem;
 }
 
 .custom-header-back-arrow-button:hover .custom-header-back-arrow-icon {
@@ -37,17 +37,16 @@
   gap: 10px;
 }
 
-.custom-header-main-page-login-signup-container > button {
+.custom-header-main-page-login-signup-container > a {
   background: none;
   outline: none;
   color: var(--light);
   cursor: pointer;
   border: none;
-  transition: opacity 0.2s ease-in;
   font-size: 1.1rem;
 }
 
-.custom-header-main-page-login-signup-container > button:hover {
+.custom-header-main-page-login-signup-container > a:hover {
   opacity: 0.8;
 }
 
@@ -75,9 +74,9 @@
 }
 
 .custom-header-question-text {
-  grid-area: bottom-right;
   color: var(--light);
   margin-left: auto;
+  margin-top: -20px;
 }
 
 @media (max-width: 250px) {
@@ -89,5 +88,18 @@
 @media (min-width: 400px) {
   .custom-header-question-text {
     margin-left: 187px;
+  }
+}
+
+@media (min-width: 700px) {
+  .custom-header-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .custom-header-question-text {
+    padding-left: 187px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
