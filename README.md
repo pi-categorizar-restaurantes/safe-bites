@@ -53,7 +53,6 @@ As seguintes ferramentas foram / serão utilizadas durante o desenvolvimento do 
 - **[jQuery](https://jquery.com/)**
 - **[Bootstrap](https://getbootstrap.com/)**
 - **[React](https://pt-br.reactjs.org/)**
-- **[Reactstrap](https://reactstrap.github.io/)**
 - **[React Slick](https://react-slick.neostack.com/)**
 
 
