@@ -6,7 +6,7 @@ import "./styles.css";
 const HomePage = () => {
   return (
     <>
-      <Header backArrow={true} />
+      <Header isMainPage={true} />
       <section className="routes">
         {" "}
         <h1 className="custom-title-font">ROTAS ATÉ AGORA</h1>
