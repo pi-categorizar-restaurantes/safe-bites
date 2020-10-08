@@ -24,6 +24,9 @@
   height: 100vh;
   width: 100vw;
   background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .custom-onboarding-icons-container {
@@ -54,6 +57,11 @@
   gap: 40px;
   justify-content: space-between;
   margin-top: 10px;
+}
+
+.custom-onboarding-buttons-container a {
+  height: 53px;
+  width: 145px;
 }
 
 .custom-onboarding-container .custom-next-slide-button {
