@@ -1,0 +1,37 @@
+.custom-sign-up-page {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-sign-up-form {
+  background-color: var(--blue);
+  width: min(100%, 700px);
+  max-width: 700px;
+  padding: var(--base-padding);
+  height: fit-content;
+  min-height: calc(100vh - var(--header-height));
+  overflow-y: auto;
+}
+
+.custom-sign-up-form h2 {
+  color: var(--light);
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.custom-sign-up-form > p {
+  color: var(--light);
+  font-size: 1.1rem;
+}
+
+.custom-sign-up-form form {
+  margin-top: 1.2rem;
+}
+
+.custom-submit-button {
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+}
