@@ -8,7 +8,7 @@ import mockReview from "../../mock/reviewMock";
 export default [
   {
     slideContent: (
-      <div className="onboarding-slide" key={1}>
+      <div className="custom-onboarding-slide" key={1}>
         <p>
           Seja bem vindo ao Safe Bites, a plataforma ideal para amantes de
           comida com restrições alimentares e estabelecimentos que desejam se
@@ -19,12 +19,12 @@ export default [
   },
   {
     slideContent: (
-      <div className="onboarding-slide" key={2}>
+      <div className="custom-onboarding-slide" key={2}>
         <p>
           Se você é cliente, procure no mapa ou na lista um restaurante próximo
           a você que ofereça os produtos que estão de acordo com sua dieta.
         </p>
-        <div className="onboarding-icons-container">
+        <div className="custom-onboarding-icons-container">
           <span>
             <img src={mapIcon} alt="Ícone de mapa" />
           </span>
@@ -37,7 +37,7 @@ export default [
   },
   {
     slideContent: (
-      <div className="onboarding-slide" key={3}>
+      <div className="custom-onboarding-slide" key={3}>
         <p>
           {" "}
           Se você é estabelecimento, descubra como melhorar seu atendimento para
@@ -49,16 +49,22 @@ export default [
   },
   {
     slideContent: (
-      <div className="onboarding-slide" key={4}>
+      <div className="custom-onboarding-slide" key={4}>
         <p>
           Gostou? Comece agora mesmo a utilizar nossa plataforma! Cadastre-se
           para ter acesso a todas as nossas funcionalidades.
         </p>
-        <div className="onboarding-buttons-container">
-          <Link to={""} className="default-button green title-font">
+        <div className="custom-onboarding-buttons-container">
+          <Link
+            to={""}
+            className="custom-default-button custom-green custom-title-font"
+          >
             Quero me cadastrar
           </Link>
-          <Link to={""} className="default-button red title-font">
+          <Link
+            to={""}
+            className="custom-default-button custom-red custom-title-font"
+          >
             Prosseguir sem cadastro
           </Link>
         </div>

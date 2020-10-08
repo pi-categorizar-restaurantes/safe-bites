@@ -1,4 +1,4 @@
-.indicators {
+.custom-indicators {
   display: flex;
   gap: 5px;
   width: 100%;
@@ -7,21 +7,21 @@
   margin-bottom: 10px;
 }
 
-.indicator {
+.custom-indicator {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
 }
 
-.active-indicator {
+.custom-active-indicator {
   background-color: var(--light);
 }
 
-.inactive-indicator {
+.custom-inactive-indicator {
   background-color: var(--lighter-gray);
   cursor: pointer;
 }
 
-.inactive-indicator:hover {
+.custom-inactive-indicator:hover {
   opacity: 0.9;
 }

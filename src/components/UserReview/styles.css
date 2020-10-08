@@ -1,4 +1,4 @@
-.review {
+.custom-review {
   width: min(375px, 100%);
   background-color: var(--darker-blue);
   display: flex;
@@ -7,20 +7,20 @@
   border-radius: var(--input-border-radius);
 }
 
-.review-expanded {
+.custom-review-expanded {
   height: fit-content;
 }
 
-.review-not-expanded {
+.custom-review-not-expanded {
   height: 240px;
 }
 
-.review-user-data {
+.custom-review-user-data {
   display: flex;
   align-items: center;
 }
 
-.review-user-data > div {
+.custom-review-user-data > div {
   width: 100%;
   margin-left: 0.5rem;
   display: flex;
@@ -29,26 +29,26 @@
   height: 3rem;
 }
 
-.review-user-data-username {
+.custom-review-user-data-username {
   color: var(--light);
   font-size: 1.2rem;
 }
 
-.review-user-data img {
+.custom-review-user-data img {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.review-text {
+.custom-review-text {
   color: var(--light);
   font-size: 1.1rem;
   line-height: 1.5rem;
   overflow: hidden;
 }
 
-.review-heart-container {
+.custom-review-heart-container {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
@@ -56,16 +56,16 @@
   align-items: center;
 }
 
-.review-heart-container p {
+.custom-review-heart-container p {
   color: var(--light);
 }
 
-.review-heart-container svg {
+.custom-review-heart-container svg {
   height: 80%;
   width: 75%;
 }
 
-.review-heart {
+.custom-review-heart {
   background-color: var(--light);
   border-radius: 50%;
   display: flex;
@@ -77,12 +77,12 @@
   transition: opacity 0.1s;
 }
 
-.review-heart:hover {
+.custom-review-heart:hover {
   opacity: 0.9;
 }
 
 @media (max-width: 375px) {
-  .review {
+  .custom-review {
     height: fit-content;
   }
 }

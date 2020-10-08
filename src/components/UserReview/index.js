@@ -22,31 +22,40 @@ const UserReview = ({ reviewData }) => {
 
   return (
     <div
-      className={`review ${
-        isExpanded ? "review-expanded" : "review-not-expanded"
+      className={`custom-review ${
+        isExpanded ? "custom-review-expanded" : "custom-review-not-expanded"
       }`}
     >
-      <div className="review-user-data">
+      <div className="custom-review-user-data">
         <span>
           <img src={userAvatarUrl} alt="Foto do usuário" />
         </span>
         <div>
           <ReviewRating rating={rating} />
-          <p className="review-user-data-username title-font">{userName}</p>
+          <p className="custom-review-user-data-username custom-title-font">
+            {userName}
+          </p>
         </div>
       </div>
       <div
-        className="review-content"
+        className="custom-review-content"
         onClick={() => setIsExpanded(!isExpanded)}
       >
-        {isExpanded && <p className="review-text text-font">{reviewText}</p>}
+        {isExpanded && (
+          <p className="custom-review-text custom-text-font">{reviewText}</p>
+        )}
         {!isExpanded && (
-          <p className="review-text text-font">{trimReviewText(reviewText)}</p>
+          <p className="custom-review-text custom-text-font">
+            {trimReviewText(reviewText)}
+          </p>
         )}
       </div>
-      <div className="review-heart-container">
-        <p className="text-font">Amei!</p>
-        <span className="review-heart title-font" onClick={handleLikeClick}>
+      <div className="custom-review-heart-container">
+        <p className="custom-text-font">Amei!</p>
+        <span
+          className="custom-review-heart custom-title-font"
+          onClick={handleLikeClick}
+        >
           <svg
             viewBox="0 0 26 21"
             fill={"none"}

@@ -1,17 +1,17 @@
-.carousel-container {
+.custom-carousel-container {
   width: min(100vw, 700px);
   height: calc(100vh-150px);
   overflow: hidden;
 }
 
-.carousel-menu {
+.custom-carousel-menu {
   display: flex;
   flex-direction: column;
   height: 150px;
   justify-content: flex-end;
 }
 
-.skip-button-container {
+.custom-skip-button-container {
   display: flex;
   justify-content: center;
 }

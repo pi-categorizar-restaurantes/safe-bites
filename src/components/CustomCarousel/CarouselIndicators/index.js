@@ -9,28 +9,28 @@ const CarouselIndicators = ({
   skipTo,
 }) => {
   return (
-    <div className="indicators-container">
-      <div className="indicators">
+    <div className="custom-indicators-container">
+      <div className="custom-indicators">
         {items.map((_, index) => {
           return index === activeIndex ? (
             <div
               key={index}
               onClick={() => onClickHandler(index)}
-              className="indicator active-indicator"
+              className="custom-indicator custom-active-indicator"
             />
           ) : (
             <div
               key={index}
               onClick={() => onClickHandler(index)}
-              className="indicator inactive-indicator"
+              className="custom-indicator custom-inactive-indicator"
             />
           );
         })}
       </div>
 
       {skippable && activeIndex < items.length - 1 && (
-        <div className="skip-button-container">
-          <Link to={skipTo} className="grayed-button">
+        <div className="custom-skip-button-container">
+          <Link to={skipTo} className="custom-grayed-button">
             PULAR
           </Link>
         </div>

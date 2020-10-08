@@ -26,7 +26,7 @@ const ReviewRating = ({ rating = 5.0 }) => {
   }
 
   return (
-    <div className="review-rating">
+    <div className="custom-review-rating">
       <p>{rating},0</p> {stars.map((star) => star)}
     </div>
   );
