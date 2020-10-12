@@ -56,13 +56,13 @@ export default [
         </p>
         <div className="custom-onboarding-buttons-container">
           <Link
-            to={""}
+            to={"/signup"}
             className="custom-default-button custom-green custom-title-font"
           >
             Quero me cadastrar
           </Link>
           <Link
-            to={""}
+            to={"/home"}
             className="custom-default-button custom-red custom-title-font"
           >
             Prosseguir sem cadastro

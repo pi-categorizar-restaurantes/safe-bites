@@ -1,0 +1,69 @@
+.custom-text-input-block-profile-page {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.custom-text-input-block-profile-page label {
+  color: var(--darker-blue);
+  width: 90px;
+  font-size: 0.9rem;
+}
+
+.custom-text-input-block-profile-page input {
+  background-color: var(--darker-blue);
+  color: var(--light);
+  width: 1fr;
+  min-width: 70px;
+  pointer-events: none;
+  border: none;
+  outline: none;
+  height: 40px;
+}
+
+.custom-text-input-block-register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.custom-text-input-block-register-page label {
+  color: var(--light);
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.custom-text-input-block-register-page input {
+  background-color: var(--light);
+  width: 100%;
+  color: var(--darker-blue);
+  border: none;
+  outline: none;
+  height: 1.7rem;
+  padding: 0.5rem;
+}
+
+.custom-text-input-block-register-page .custom-focus-indicator {
+  position: absolute;
+  background: none;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: var(--input-border-radius);
+  transition: width 0.4s ease-in;
+}
+
+.custom-text-input-block-register-page input:focus + span,
+.custom-text-input-block-register-page input:active + span {
+  background-color: var(--darker-green);
+  width: calc(100% - 0.5rem);
+}

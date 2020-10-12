@@ -1,28 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import backArrowIcon from "../../assets/back-arrow.svg";
 import horizontalLogo from "../../assets/safe-bites_horizontal.png";
 import "./styles.css";
 
-const Header = ({ backArrow = false, isMainPage = false }) => {
+const Header = ({ backArrow = false, isMainPage = false, backArrowGoTo }) => {
   return (
     <header className="custom-header">
       {backArrow && (
-        <button className="custom-header-back-arrow-button" onClick={() => {}}>
+        <Link className="custom-header-back-arrow-button" to={backArrowGoTo}>
           <img
             src={backArrowIcon}
             alt="Voltar"
             className="custom-header-back-arrow-icon"
           />
-        </button>
+        </Link>
       )}
       {isMainPage && (
         <div className="custom-header-main-page-login-signup-container">
-          <button className="custom-title-font" onClick={() => {}}>
+          <Link className="custom-title-font" to="/login">
             Entrar
-          </button>
-          <button className="custom-title-font" onClick={() => {}}>
+          </Link>
+          <Link className="custom-title-font" to="/signup">
             Cadastrar
-          </button>
+          </Link>
         </div>
       )}
       <div
@@ -39,7 +40,7 @@ const Header = ({ backArrow = false, isMainPage = false }) => {
         />
       </div>
       {isMainPage && (
-        <p className="custom-header-question-text custom-text-font">
+        <p className="custom-header-question-text custom-title-font">
           Qual seu tipo de comida?
         </p>
       )}
