@@ -2,6 +2,7 @@
   background-color: var(--blue);
   width: 100vw;
   height: var(--header-height);
+  min-height: fit-content;
   display: flex;
   flex-direction: column;
   padding: var(--base-padding);
@@ -58,7 +59,7 @@
 
 .custom-header-logo {
   object-fit: contain;
-  width: 250px;
+  width: 50vw;
   max-width: 250px;
   height: auto;
   max-height: 100%;
@@ -76,7 +77,6 @@
 .custom-header-question-text {
   color: var(--light);
   margin-left: auto;
-  margin-top: -20px;
 }
 
 @media (max-width: 250px) {
