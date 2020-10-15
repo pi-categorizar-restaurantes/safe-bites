@@ -1,9 +1,0 @@
-.routes {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  padding: var(--base-padding);
-  background-color: var(--blue);
-  color: var(--light);
-  font-size: 2rem;
-}
