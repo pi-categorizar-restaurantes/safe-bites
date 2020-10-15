@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReviewRating from "./ReviewRating";
+import Rating from "../Rating";
 import { trimReviewText, updateReviewLike } from "./business";
 import "./styles.css";
 
@@ -31,7 +31,7 @@ const UserReview = ({ reviewData }) => {
           <img src={userAvatarUrl} alt="Foto do usuário" />
         </span>
         <div>
-          <ReviewRating rating={rating} />
+          <Rating rating={rating} />
           <p className="custom-review-user-data-username custom-title-font">
             {userName}
           </p>
