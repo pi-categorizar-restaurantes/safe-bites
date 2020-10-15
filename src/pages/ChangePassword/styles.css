@@ -1,0 +1,24 @@
+.custom-change-password-page-section {
+  display: flex;
+  flex-direction: column;
+  padding: var(--base-padding);
+  gap: 25px;
+  max-width: 740px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-change-password-page-section form {
+  width: 100%;
+}
+
+.custom-change-password-page-section p {
+  color: var(--light);
+  font-size: 1.05rem;
+  margin-right: auto;
+}
+
+.custom-change-password-page-section form button {
+  width: 100%;
+}
