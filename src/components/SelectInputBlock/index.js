@@ -29,8 +29,9 @@ const SelectInputBlock = ({
         name={label}
         selected={stateBind}
         required={required}
+        defaultValue=""
       >
-        <option disabled value="" selected hidden>
+        <option disabled value="" hidden>
           Escolha uma opção
         </option>
         {options.map((option, index) => (

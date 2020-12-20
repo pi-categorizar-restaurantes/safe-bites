@@ -11,7 +11,7 @@ const Onboarding = () => {
   }, []);
 
   return (
-    <div className="custom-onboarding-container">
+    <section className="custom-onboarding-container">
       <Header />
       <CustomCarousel
         slides={onboardingSlides}
@@ -20,7 +20,7 @@ const Onboarding = () => {
         skippable={true}
         skipTo="/home"
       />
-    </div>
+    </section>
   );
 };
 

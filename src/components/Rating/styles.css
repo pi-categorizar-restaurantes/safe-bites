@@ -1,17 +1,17 @@
-.custom-review-rating {
+.custom-rating {
   display: flex;
   align-items: center;
   gap: 1px;
 }
 
-.custom-review-rating p {
+.custom-rating p {
   color: var(--light);
   margin-right: 4px;
   font-size: 1.2rem;
   font-family: var(--text-font-family);
 }
 
-.custom-review-rating svg {
+.custom-rating svg {
   height: 1.2rem;
   width: 20px;
 }

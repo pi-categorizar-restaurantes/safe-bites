@@ -1,0 +1,73 @@
+.custom-restaurant-card {
+  background-color: var(--light);
+  border-top: 1px var(--blue) solid;
+  color: var(--blue);
+  padding: 0.5rem;
+  height: 7rem;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.custom-restaurant-card:hover {
+  background-color: var(--green);
+  border-top: 1px var(--blue) solid;
+  color: var(--light);
+}
+
+.custom-restaurant-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 340px;
+}
+.custom-restaurant-card > div > h2 {
+  font-size: 1.1rem;
+}
+
+.custom-restaurant-card > div > p {
+  font-size: 0.9rem;
+}
+
+.custom-restaurant-card-last-row {
+  display: flex;
+  height: 4rem;
+  margin-top: auto;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.custom-restaurant-card-last-row p:last-child {
+  margin-left: auto;
+}
+
+.custom-restaurant-card-last-row img {
+  height: 80%;
+  width: auto;
+}
+
+.custom-restaurant-card-avatar-container {
+  height: 80%;
+  width: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom-restaurant-card-avatar {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.custom-restaurant-card-last-row .custom-rating {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 360px) {
+  .custom-restaurant-card {
+    height: fit-content;
+  }
+}

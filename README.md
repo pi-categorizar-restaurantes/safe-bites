@@ -1,4 +1,4 @@
- # SafeBites
+ # SafeBites - PROJETO CANCELADO
  
  <p align="center">
   <img width="420" src="./.gitassets/logo.png" alt="Logo Safe Bites"> 
@@ -20,7 +20,7 @@
 
 ## Santander Coders by Digital House
 
-Projeto integrador desenvolvido durante o curso de Desenvolvimento Web Full Stack Java oferecido pela [digitalhouse](https://www.digitalhouse.com/br/) em parceria com a universidade Santander.
+Projeto integrador desenvolvido durante o curso de Desenvolvimento Web Full Stack Java oferecido pela [Digital House](https://www.digitalhouse.com/br/) em parceria com a universidade Santander.
 <br>
 
 ## Ideia do Projeto

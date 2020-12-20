@@ -1,0 +1,18 @@
+.custom-unauth-action-page-section {
+  background-color: var(--blue);
+  height: calc(100vh - var(--header-height));
+  padding: var(--base-padding);
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.custom-unauth-action-page-section h2 {
+  color: var(--light);
+  font-size: 1.2rem;
+}
+
+.custom-unauth-action-page-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}

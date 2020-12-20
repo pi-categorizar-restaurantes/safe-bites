@@ -33,7 +33,7 @@ const TextInputBlock = ({
         value={stateBind}
         pattern={pattern}
         placeholder={placeholder}
-        maxlength={maxlength}
+        maxLength={maxlength}
         required={required}
       />
       <span className="custom-focus-indicator"></span>

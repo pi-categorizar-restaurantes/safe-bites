@@ -1,0 +1,34 @@
+.custom-footer-menu-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  height: var(--footer-height);
+  padding: 0.5rem;
+  outline: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px var(--darker-gray) solid;
+  border-right: 1px var(--darker-gray) solid;
+  justify-content: center;
+}
+
+.custom-footer-menu-button-highlighted {
+  background-color: var(--light);
+}
+
+.custom-footer-menu-button-gray {
+  background-color: var(--lighter-gray);
+}
+
+.custom-footer-menu-button img {
+  height: calc(0.4 * var(--footer-height));
+  width: auto;
+  object-fit: contain;
+}
+
+.custom-footer-menu-button span {
+  color: var(--darker-blue);
+  font-size: 100%;
+  font-size: 1rem;
+}

@@ -1,0 +1,59 @@
+.custom-restaurant-list-filter-container {
+  display: flex;
+  height: 8vh;
+  min-height: 2.5rem;
+  width: 100vw;
+  background-color: var(--light);
+  justify-content: space-around;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-restaurant-list-filter-container button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 25%;
+  height: 100%;
+  padding: none;
+}
+
+.custom-restaurant-list-filter-container button img {
+  height: 60%;
+  width: auto;
+}
+
+.custom-food-type-filter-highlighted {
+  background-color: var(--blue);
+  color: var(--light);
+}
+
+.custom-food-type-filter-idle {
+  color: var(--blue);
+  background-color: var(--light);
+}
+
+.custom-restaurant-list-cards-container {
+  height: calc(100vh - var(--header-height) - var(--footer-height) - 8vh);
+  overflow-y: auto;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--light);
+}
+
+.custom-restaurant-list-cards-container > p {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.custom-restaurant-list-cards-container .custom-restaurant-card:last-child {
+  border-bottom: 1px var(--blue) solid;
+}

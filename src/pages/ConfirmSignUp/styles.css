@@ -1,0 +1,21 @@
+.custom-confirm-sign-up-page-section {
+  display: flex;
+  flex-direction: column;
+  padding: var(--base-padding);
+  gap: 25px;
+  max-width: 740px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-confirm-sign-up-page-section p {
+  color: var(--light);
+  font-size: 1.3rem;
+}
+
+.custom-confirm-sign-up-page-section a {
+  color: var(--light);
+  width: 100%;
+  font-size: 1.3rem;
+}

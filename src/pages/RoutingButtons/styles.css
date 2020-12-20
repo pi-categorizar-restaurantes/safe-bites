@@ -1,0 +1,16 @@
+.custom-routes {
+  height: calc(100vh - var(--header-height));
+  color: var(--light);
+  padding: var(--base-padding);
+  background-color: var(--blue);
+  font-size: 2rem;
+}
+
+.custom-routes div {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: 90vh;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
